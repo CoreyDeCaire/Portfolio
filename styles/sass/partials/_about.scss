@@ -1,0 +1,33 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutContainer .imgContainer img {
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#about {
+    background-color: #333333;
+    color: lightgrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about, .wrapper {
+    margin: 0 auto;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 50%;
+    font-size: 1.5rem;
+}
+
+.aboutText h2 {
+    font-size: 2.5rem;
+}
