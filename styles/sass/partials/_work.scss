@@ -1,0 +1,39 @@
+#work {
+    background-color: #333;
+}
+
+#work h2 {
+    font-size: 2.5rem;
+    color: lightgray;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.workTextContainer {
+    color: lightgray;
+    width: 50%;
+}
+
+.workImgContainer{
+    width: 50%;
+    margin-left: 100px;
+}
+.workImgContainer img {
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.workFlexParent{
+    display: flex;
+}
+
+// .workFlexParent p {
+//     width: 50%;
+// }
+
+.workFlexParent a {
+    color: black;
+}

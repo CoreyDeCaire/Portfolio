@@ -1,0 +1,19 @@
+.skillsContainer  {
+    display: grid;
+    grid-template-columns: repeat(6, 180px);
+    grid-template-rows: 150px 150px;
+    background-color: #FFFFFF;
+    margin: 90px 0 60px 50px;
+}
+
+.individualSkill {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    justify-content: center;
+}
+
+.skillsContainer h2 {
+    font-size: 2.5rem;
+    margin: 0 0 0 35px;
+}
