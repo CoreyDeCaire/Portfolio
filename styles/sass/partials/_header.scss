@@ -13,12 +13,14 @@
 .navigation a {
     color: black;
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
     transition: font-size 0.3s;
 }
 
 .navigation a:hover {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 
@@ -51,7 +53,7 @@
 }
 
 #shadow {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 30px;
     color: lightgrey;
     text-shadow: 3px 3px black;
@@ -59,7 +61,7 @@
 
 h1 {
     display: flex;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 700;
     justify-content: center;
     text-shadow: 3px 3px lightgrey;
@@ -93,8 +95,8 @@ h1 {
 
 .ml9 {
     position: relative;
-    font-weight: 200;
-    font-size: 5em;
+    font-weight: 700;
+    font-size: 6em;
 }
 
 .ml9 .text-wrapper {

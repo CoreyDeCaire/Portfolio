@@ -258,12 +258,14 @@ a {
 .navigation a {
   color: black;
   font-family: "Raleway", sans-serif;
-  font-size: 1rem;
+  border-bottom: 1px solid black;
+  font-size: 1.3rem;
   transition: font-size 0.3s;
 }
 
 .navigation a:hover {
-  font-size: 1.2rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .navigation li {
@@ -294,7 +296,7 @@ a {
 }
 
 #shadow {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
   color: lightgrey;
   text-shadow: 3px 3px black;
@@ -302,7 +304,7 @@ a {
 
 h1 {
   display: flex;
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 700;
   justify-content: center;
   text-shadow: 3px 3px lightgrey;
@@ -336,8 +338,8 @@ h1 {
 
 .ml9 {
   position: relative;
-  font-weight: 200;
-  font-size: 5em;
+  font-weight: 700;
+  font-size: 6em;
 }
 
 .ml9 .text-wrapper {
@@ -365,6 +367,7 @@ h1 {
   border-radius: 50%;
   margin-left: 100px;
   margin-top: 80px;
+  box-shadow: 11px 9px 5px 9px #000000;
 }
 
 #about {
@@ -438,6 +441,11 @@ h3 {
   width: 400px;
   height: 280px;
   border-radius: 5%;
+  transition: box-shadow 0.5s;
+}
+
+.workImgContainer1 img:hover {
+  box-shadow: 7px 10px 0px 9px black;
 }
 
 .workImgContainer1 {
@@ -447,6 +455,10 @@ h3 {
 
 .workImgContainer2 {
   padding-top: 50px;
+}
+
+.workImgContainer2 img:hover {
+  box-shadow: 7px 10px 0px 9px black;
 }
 
 .workTextContainer1 {
@@ -478,6 +490,7 @@ h3 {
   border: 1px solid black;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  padding: 8px 0 8px 0;
 }
 
 .gitHub1:hover {
@@ -494,6 +507,7 @@ h3 {
   border: 1px solid black;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  padding: 8px 0 8px 0;
 }
 
 .gitHub2:hover {
@@ -512,6 +526,7 @@ h3 {
   font-weight: 700;
   margin-right: 15px;
   align-items: left;
+  padding: 8px 0 8px 0;
 }
 
 .viewLive1:hover {
@@ -530,6 +545,7 @@ h3 {
   font-weight: 700;
   margin-right: 15px;
   align-items: left;
+  padding: 8px 0 8px 0;
 }
 
 .viewLive2:hover {
@@ -545,12 +561,12 @@ h3 {
 .skillsUsed1 li {
   background-color: lightgray;
   color: black;
-  width: 90px;
+  width: 110px;
   border: 1px solid black;
   text-align: center;
   font-family: "Raleway", sans-serif;
   border-radius: 15%;
-  padding: 5px 0;
+  padding: 10px;
   letter-spacing: 1px;
   margin-left: 1px;
   margin-right: 5px;
@@ -558,19 +574,19 @@ h3 {
 
 .skillsUsed2 {
   display: flex;
-  padding-left: 262px;
+  padding-left: 201px;
   padding-bottom: 5px;
 }
 
 .skillsUsed2 li {
   background-color: lightgray;
   color: black;
-  width: 90px;
+  width: 110px;
   border: 1px solid black;
   text-align: center;
   font-family: "Raleway", sans-serif;
   border-radius: 15%;
-  padding: 5px 0;
+  padding: 10px;
   letter-spacing: 1px;
   margin-left: 1px;
   margin-right: 5px;
@@ -584,6 +600,13 @@ h3 {
 .workLinks2 {
   display: flex;
   padding-left: 250px;
+}
+
+#contact h2 {
+  text-align: right;
+  margin-right: 55px;
+  font-size: 2.5rem;
+  border-bottom: 2px solid black;
 }
 
 footer {
@@ -605,6 +628,7 @@ footer a {
 }
 
 footer a:hover {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: white;
+  border-bottom: 1px solid white;
 }/*# sourceMappingURL=styles.css.map */
