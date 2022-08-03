@@ -609,6 +609,24 @@ h3 {
   border-bottom: 2px solid black;
 }
 
+.contactTextContainer a {
+  color: black;
+  transition: font-weight 0.5s;
+  transition: -webkit-text-decoration 0.5s;
+  transition: text-decoration 0.5s;
+  transition: text-decoration 0.5s, -webkit-text-decoration 0.5s;
+}
+
+.contactTextContainer a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.inputContainer {
+  display: flex;
+  align-self: flex-end;
+}
+
 footer {
   background-color: #333;
   color: lightgray;
