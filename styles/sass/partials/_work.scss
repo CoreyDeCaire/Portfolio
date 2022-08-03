@@ -1,10 +1,12 @@
 #work {
     background-color: #333;
+    padding-bottom: 100px;
 }
 
 #work h2 {
     font-size: 2.5rem;
     color: lightgray;
+    padding-top: 80px;
 }
 
 h3 {
@@ -18,7 +20,7 @@ h3 {
 
 .workImgContainer{
     width: 50%;
-    margin-left: 100px;
+    // margin-left: 100px;
 }
 .workImgContainer img {
     width: 400px;
@@ -26,14 +28,152 @@ h3 {
     border-radius: 5%;
 }
 
-.workFlexParent{
-    display: flex;
+.workImgContainer1 {
+    margin-left: 130px;
+    padding-top: 50px;
 }
 
-// .workFlexParent p {
-//     width: 50%;
-// }
+.workImgContainer2 {
+    padding-top: 50px;
+}
+
+.workTextContainer1 {
+    width: 90%;
+}
+
+.workTextContainer2 {
+    width: 90%;
+    text-align: right;
+}
+.workFlexParent{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
 
 .workFlexParent a {
     color: black;
+}
+
+.gitHub1 {
+    background-color: rgba(73, 121, 75, 0.947);
+    width: 140px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    // transition: background-color 0.3s;
+    transition: font-size 0.3s;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.gitHub1:hover {
+    font-size: 1.75rem;
+    // background-color: white;
+}
+
+.gitHub2 {
+    background-color: rgba(73, 121, 75, 0.947);
+    width: 140px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    // transition: background-color 0.3s;
+    transition: font-size 0.3s;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.gitHub2:hover {
+    font-size: 1.75rem;
+    // background-color: white;
+}
+
+.viewLive1 {
+    background-color: rgba(73, 121, 75, 0.947);
+    width: 140px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    // transition: background-color 0.3s;
+    transition: font-size 0.3s;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-right: 15px;
+    align-items: left;
+}
+
+.viewLive1:hover {
+    font-size: 1.75rem;
+}
+
+.viewLive2 {
+    background-color: rgba(73, 121, 75, 0.947);
+    width: 140px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    // transition: background-color 0.3s;
+    transition: font-size 0.3s;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-right: 15px;
+    align-items: left;
+}
+
+.viewLive2:hover {
+    font-size: 1.75rem;
+}
+
+.skillsUsed1 {
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.skillsUsed1 li {
+    background-color: lightgray;
+    color: black;
+    width: 90px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 15%;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+
+.skillsUsed2 {
+    display: flex;
+    padding-left: 262px;
+    padding-bottom: 5px;
+}
+
+.skillsUsed2 li {
+    background-color: lightgray;
+    color: black;
+    width: 90px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 15%;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+.workLinks1 {
+    display: flex;
+    padding-left: 0px;
+}
+
+.workLinks2 {
+    display: flex;
+    padding-left: 250px;
 }

@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://kit.fontawesome.com/c94805bed8.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 <body>
     <header>
@@ -27,7 +28,11 @@
                 <!-- <img src="./assets/lasse-jensen-fSSO5U_iwzk-unsplash.jpg" alt="A clean and minimal setup of a laptop on a desk."> -->
             </div>
             <div class="headerTextContainer">
-                <h1>Hello, I'm Corey DeCaire</h1>
+                <h1 class="ml9">
+                    <span class="text-wrapper">
+                        <span class="letters"> Hello, I'm Corey DeCaire</span>
+                    </span>
+                </h1>
                 <p id="shadow">
                     I am a Front-End Web Developer
                 </p>
@@ -100,47 +105,63 @@
                 <div class="workFlexParent">
                     
                     <div class="workTextContainer">
+                        <div class="workTextContainer1">
                         <h3>Recipe Randomizer</h3>
                         <p>The Recipe Randomizer was my first time working with API calls. It came together from my love of cooking and never knowing what to make with the ingredients that I had on hand. Allows users to specify what items they have and will return a random recipe with those ingredients and image as well!</p>
-                        <ul class="skillsUsed">
+                        </div>
+                        <ul class="skillsUsed1">
                             <li>JavaScript</li>
                             <li>API</li>
                             <li>Sass</li>
                             <li>CSS3</li>
                             <li>HTML5</li>
                         </ul>
-                        <ul class="workLinks">
+                        <ul class="workLinks1">
                             <li>
-                                <a href="https://fabulous-fox-e3dc52.netlify.app/">View Live</a>
+                                <div class="viewLive1">
+                                    <a href="https://fabulous-fox-e3dc52.netlify.app/">View Live</a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://github.com/Project2-corey-jeremy/project2-recipe-selector">GitHub</a>
+                                <div class="gitHub1">
+                                    <a href="https://github.com/Project2-corey-jeremy/project2-recipe-selector">GitHub</a>
+                                </div>
                             </li>
                         </ul>
                     </div>
                     <div class="workImgContainer">
-                        <img src="./assets/Screen Shot 2022-08-01 at 7.48.20 PM.png"
+                        <div class="workImgContainer1">
+                            <img src="./assets/Screen Shot 2022-08-01 at 7.48.20 PM.png"
                             alt="A screenshot of a website I built called Recipe Randomizer">
+                        </div>
                     </div>
                 </div>
                 <div class="workFlexParent">
                     <div class="workImgContainer">
-                        <img src="./assets/Screen Shot 2022-08-01 at 7.50.48 PM.png" alt="A Screenshot of a website I built called Captured">
+                        <div class="workImgContainer2">
+                            <img src="./assets/Screen Shot 2022-08-01 at 7.50.48 PM.png" alt="A Screenshot of a website I built called Captured">
+                        </div>
                     </div>
                     <div class="workTextContainer">
+                        <div class="workTextContainer2">
                         <h3>Captured</h3>
                         <p>This is a multipage site designed to show off different photographers works. This was my first project for Juno College and allows users to go through a multipage design with blog and contact sections. I used HTML, CSS and Sass to complete this one.</p>
-                        <ul class="skillsUsed">
+                        </div>
+                        <ul class="skillsUsed2">
                             <li>Sass</li>
                             <li>CSS3</li>
                             <li>HTML5</li>
                         </ul>
-                        <ul class="workLinks">
+                        <ul class="workLinks2">
                             <li>
-                                <a href="https://coreydecaire-project1-captured.netlify.app/">View Live</a>
+                                <div class="viewLive2">
+                                    <a href="https://coreydecaire-project1-captured.netlify.app/">View Live</a>
+                                </div>
                             </li>
                             <li>
-                                <a href="https://github.com/CoreyDeCaire/project1">GitHub</a>
+                                <div class="gitHub2">
+                                    <a href="https://github.com/CoreyDeCaire/project1">GitHub</a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -195,5 +216,8 @@
     <footer>
         <p>Designed and Developed by Corey DeCaire at <a href="https://junocollege.com/">Juno College</a></p>
     </footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
