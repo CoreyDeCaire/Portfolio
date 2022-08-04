@@ -1,3 +1,26 @@
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactFlexParent {
+    display: flex;
+    margin-right: 50px;
+}
+
+.contactTextContainer {
+   margin-right: 50px;
+}
+
+.contactTextContainer ul {
+    padding-left: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contactTextContainer ul li a i {
+    font-size: 2.5rem;
+}
+
 #contact h2 {
     text-align: right;
     margin-right: 55px;
@@ -14,9 +37,48 @@
 .contactTextContainer a:hover {
     font-weight: 700;
     text-decoration: underline;
+    color: blue;
 }
 
 .inputContainer {
     display: flex;
-    align-self: flex-end;
+}
+
+.inputContainer, #name, #email {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#name, #email {
+    border-top: none;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#name {
+    margin-right: 10px;
+}
+
+#message {
+    border: 3px solid #333;
+    border-radius: 0px 40px 0px 40px;
+    margin-bottom: 20px;
+}
+
+.shopButton {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    transition: font-size 0.5s;
+}
+
+.shopButton:hover {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-decoration: underline;
 }
