@@ -26,10 +26,15 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    max-width: 50%;
+    max-width: 90%;
     font-size: 1.5rem;
 }
 
 .aboutText h2 {
     font-size: 2.5rem;
+}
+
+img {
+    display: flex;
+    align-items: center;
 }

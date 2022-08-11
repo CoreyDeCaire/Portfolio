@@ -25,13 +25,14 @@ h3 {
 .workImgContainer img {
     width: 400px;
     height: 280px;
-    border-radius: 20%;
-    transition: box-shadow 0.5s;
+    border-radius: 0px 40px 0px 40px;
+    border: 3px solid black;
+    // transition: box-shadow 0.5s;
 }
 
-.workImgContainer1 img:hover {
-    box-shadow: 7px 10px 0px 9px black;
-}
+// .workImgContainer1 img:hover {
+//     box-shadow: 7px 10px 0px 9px black;
+// }
 
 .workImgContainer1 {
     margin-left: 130px;
@@ -42,9 +43,9 @@ h3 {
     padding-top: 50px;
 }
 
-.workImgContainer2 img:hover {
-    box-shadow: 7px 10px 0px 9px black;
-}
+// .workImgContainer2 img:hover {
+//     box-shadow: 7px 10px 0px 9px black;
+// }
 
 .workTextContainer1 {
     width: 90%;
@@ -70,8 +71,7 @@ h3 {
     text-align: center;
     font-size: 1.5rem;
     border-radius: 10%;
-    // transition: background-color 0.3s;
-    transition: font-size 0.3s;
+    transition: background-color 0.3s;
     border: 1px solid black;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -79,8 +79,7 @@ h3 {
 }
 
 .gitHub1:hover {
-    font-size: 1.75rem;
-    // background-color: white;
+    background-color: rgb(82, 82, 223);
 }
 
 .gitHub2 {
@@ -89,8 +88,7 @@ h3 {
     text-align: center;
     font-size: 1.5rem;
     border-radius: 10%;
-    // transition: background-color 0.3s;
-    transition: font-size 0.3s;
+    transition: background-color 0.3s;
     border: 1px solid black;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -98,8 +96,7 @@ h3 {
 }
 
 .gitHub2:hover {
-    font-size: 1.75rem;
-    // background-color: white;
+    background-color: rgb(82, 82, 223);
 }
 
 .viewLive1 {
@@ -108,8 +105,7 @@ h3 {
     text-align: center;
     font-size: 1.5rem;
     border-radius: 10%;
-    // transition: background-color 0.3s;
-    transition: font-size 0.3s;
+    transition: background-color 0.3s;
     border: 1px solid black;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -119,7 +115,7 @@ h3 {
 }
 
 .viewLive1:hover {
-    font-size: 1.75rem;
+    background-color: rgb(82, 82, 223);
 }
 
 .viewLive2 {
@@ -128,8 +124,7 @@ h3 {
     text-align: center;
     font-size: 1.5rem;
     border-radius: 10%;
-    // transition: background-color 0.3s;
-    transition: font-size 0.3s;
+    transition: background-color 0.3s;
     border: 1px solid black;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -139,7 +134,7 @@ h3 {
 }
 
 .viewLive2:hover {
-    font-size: 1.75rem;
+    background-color: rgb(82, 82, 223);
 }
 
 .skillsUsed1 {

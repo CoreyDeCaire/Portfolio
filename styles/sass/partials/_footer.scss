@@ -13,11 +13,10 @@ footer a {
     text-decoration: none;
     color: lightgray;
     font-size: 1rem;
-    transition: font-size 0.3s;
+    transition: color 0.3s;
 }
 
 footer a:hover {
-    font-size: 1.5rem;
     color: white;
     border-bottom: 1px solid white;
 }

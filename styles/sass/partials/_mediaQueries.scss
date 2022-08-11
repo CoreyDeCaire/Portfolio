@@ -1,6 +1,9 @@
 @media (max-width: 1250px) {
+    .text-wrapper {
+        width: 90%;
+    }
     .ml9 {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 }
 
@@ -12,6 +15,10 @@
         background-color: #FFFFFF;
         margin: 150px 0 100px 50px;
         }
+
+    .ml9 {
+        width: 90%;
+    }
 
     .workFlexParent {
         display: flex;
