@@ -30,12 +30,10 @@
 
 .contactTextContainer a {
    color: black;
-   transition: font-weight 0.5s;
    transition: text-decoration 0.5s;
 }
 
 .contactTextContainer a:hover {
-    font-weight: 700;
     text-decoration: underline;
     color: blue;
 }
@@ -78,5 +76,5 @@
 }
 
 .shopButton:hover {
-    background-color: rgb(82, 82, 223);
+    background-color: blue;
 }

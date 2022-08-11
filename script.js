@@ -18,4 +18,4 @@ anime.timeline({ loop: true })
         delay: 10000
     });
 
-portfolioApp.init();
+// portfolioApp.init();
