@@ -1,12 +1,13 @@
 #work {
-    background-color: #333;
+    background-color: rgb(145, 145, 168);
     padding-bottom: 100px;
 }
 
 #work h2 {
     font-size: 2.5rem;
-    color: lightgray;
+    color: white;
     padding-top: 80px;
+    border-bottom: 2px solid white;
 }
 
 h3 {
@@ -14,59 +15,66 @@ h3 {
 }
 
 .workTextContainer {
-    color: lightgray;
+    color: white;
     width: 50%;
 }
 
 .workImgContainer{
     width: 50%;
-    // margin-left: 100px;
 }
 .workImgContainer img {
-    width: 400px;
-    height: 280px;
-    border-radius: 0px 40px 0px 40px;
-    border: 3px solid black;
-    // transition: box-shadow 0.5s;
+    border-radius: 20px;
+    border: hidden;
+    max-width: 90%;
 }
 
-// .workImgContainer1 img:hover {
-//     box-shadow: 7px 10px 0px 9px black;
+// .workImgContainer img:hover {
+//     border: 3px solid black;
+//     transition: 0.2s ease-in-out;
 // }
 
 .workImgContainer1 {
-    margin-left: 130px;
     padding-top: 50px;
+    display: flex;
+    justify-content: right;
 }
 
 .workImgContainer2 {
     padding-top: 50px;
 }
 
-// .workImgContainer2 img:hover {
-//     box-shadow: 7px 10px 0px 9px black;
-// }
+.workImgContainer3 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: right;
+}
 
 .workTextContainer1 {
     width: 90%;
 }
 
 .workTextContainer2 {
-    width: 90%;
+    width: 100%;
     text-align: right;
 }
-.workFlexParent{
+
+.workTextContainer3 {
+    width: 90%;
+}
+
+.workFlexParent1, .workFlexParent2, .workFlexParent3{
     display: flex;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 
-.workFlexParent a {
+.workFlexParent1, .workFlexParent2, .workFlexParent3, a {
     color: black;
 }
 
 .gitHub1 {
-    background-color: rgba(73, 121, 75, 0.947);
+    background-color: rgb(255, 255, 255);
     width: 140px;
     text-align: center;
     font-size: 1.5rem;
@@ -83,7 +91,7 @@ h3 {
 }
 
 .gitHub2 {
-    background-color: rgba(73, 121, 75, 0.947);
+    background-color: rgb(255, 255, 255);
     width: 140px;
     text-align: center;
     font-size: 1.5rem;
@@ -99,8 +107,24 @@ h3 {
     background-color: rgb(82, 82, 223);
 }
 
+.gitHub3 {
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    transition: background-color 0.3s;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 8px 0 8px 0;
+}
+
+.gitHub3:hover {
+    background-color: rgb(82, 82, 223);
+}
 .viewLive1 {
-    background-color: rgba(73, 121, 75, 0.947);
+    background-color: rgb(255, 255, 255);
     width: 140px;
     text-align: center;
     font-size: 1.5rem;
@@ -119,7 +143,7 @@ h3 {
 }
 
 .viewLive2 {
-    background-color: rgba(73, 121, 75, 0.947);
+    background-color: rgb(255, 255, 255);
     width: 140px;
     text-align: center;
     font-size: 1.5rem;
@@ -137,6 +161,25 @@ h3 {
     background-color: rgb(82, 82, 223);
 }
 
+.viewLive3 {
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    transition: background-color 0.3s;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-right: 15px;
+    align-items: left;
+    padding: 8px 0 8px 0;
+}
+
+.viewLive3:hover {
+    background-color: rgb(82, 82, 223);
+}
+
 .skillsUsed1 {
     display: flex;
     padding-left: 0px;
@@ -144,7 +187,7 @@ h3 {
 }
 
 .skillsUsed1 li {
-    background-color: lightgray;
+    background-color: white;
     color: black;
     width: 110px;
     border: 1px solid black;
@@ -159,12 +202,31 @@ h3 {
 
 .skillsUsed2 {
     display: flex;
-    padding-left: 201px;
-    padding-bottom: 5px;
+    justify-content: right;
 }
 
 .skillsUsed2 li {
-    background-color: lightgray;
+    background-color: white;
+    color: black;
+    width: 110px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 15%;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+
+.skillsUsed3 {
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.skillsUsed3 li {
+    background-color: white;
     color: black;
     width: 110px;
     border: 1px solid black;
@@ -183,5 +245,10 @@ h3 {
 
 .workLinks2 {
     display: flex;
-    padding-left: 250px;
+    justify-content: right;
+}
+
+.workLinks3 {
+    display: flex;
+    padding-left: 0px;
 }
