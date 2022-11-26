@@ -389,9 +389,13 @@ html {
   border-bottom: 2px solid black;
 }
 
+#skills {
+  padding-bottom: 35px;
+}
+
 #work {
   background-color: rgb(145, 145, 168);
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 #work h2 {
